@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6046F691C2E808000031C9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6046F681C2E808000031C9B /* main.m */; };
+		C6046F6C1C2E808000031C9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6046F6B1C2E808000031C9B /* AppDelegate.m */; };
+		C6046F6F1C2E808000031C9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6046F6E1C2E808000031C9B /* ViewController.m */; };
+		C6046F721C2E808000031C9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6046F701C2E808000031C9B /* Main.storyboard */; };
+		C6046F741C2E808000031C9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6046F731C2E808000031C9B /* Assets.xcassets */; };
+		C6046F771C2E808000031C9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6046F751C2E808000031C9B /* LaunchScreen.storyboard */; };
+		C6046F821C2E808000031C9B /* SquareWaveAudioDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6046F811C2E808000031C9B /* SquareWaveAudioDemoTests.m */; };
+		C6046F8D1C2E808000031C9B /* SquareWaveAudioDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6046F8C1C2E808000031C9B /* SquareWaveAudioDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6046F7E1C2E808000031C9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6046F5C1C2E807F00031C9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6046F631C2E808000031C9B;
+			remoteInfo = SquareWaveAudioDemo;
+		};
+		C6046F891C2E808000031C9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6046F5C1C2E807F00031C9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6046F631C2E808000031C9B;
+			remoteInfo = SquareWaveAudioDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6046F641C2E808000031C9B /* SquareWaveAudioDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareWaveAudioDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6046F681C2E808000031C9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6046F6A1C2E808000031C9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6046F6B1C2E808000031C9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6046F6D1C2E808000031C9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C6046F6E1C2E808000031C9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C6046F711C2E808000031C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6046F731C2E808000031C9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6046F761C2E808000031C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6046F781C2E808000031C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6046F7D1C2E808000031C9B /* SquareWaveAudioDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquareWaveAudioDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6046F811C2E808000031C9B /* SquareWaveAudioDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquareWaveAudioDemoTests.m; sourceTree = "<group>"; };
+		C6046F831C2E808000031C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6046F881C2E808000031C9B /* SquareWaveAudioDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquareWaveAudioDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6046F8C1C2E808000031C9B /* SquareWaveAudioDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquareWaveAudioDemoUITests.m; sourceTree = "<group>"; };
+		C6046F8E1C2E808000031C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6046F611C2E808000031C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6046F7A1C2E808000031C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6046F851C2E808000031C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6046F5B1C2E807F00031C9B = {
+			isa = PBXGroup;
+			children = (
+				C6046F661C2E808000031C9B /* SquareWaveAudioDemo */,
+				C6046F801C2E808000031C9B /* SquareWaveAudioDemoTests */,
+				C6046F8B1C2E808000031C9B /* SquareWaveAudioDemoUITests */,
+				C6046F651C2E808000031C9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6046F651C2E808000031C9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6046F641C2E808000031C9B /* SquareWaveAudioDemo.app */,
+				C6046F7D1C2E808000031C9B /* SquareWaveAudioDemoTests.xctest */,
+				C6046F881C2E808000031C9B /* SquareWaveAudioDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6046F661C2E808000031C9B /* SquareWaveAudioDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C6046F6A1C2E808000031C9B /* AppDelegate.h */,
+				C6046F6B1C2E808000031C9B /* AppDelegate.m */,
+				C6046F6D1C2E808000031C9B /* ViewController.h */,
+				C6046F6E1C2E808000031C9B /* ViewController.m */,
+				C6046F701C2E808000031C9B /* Main.storyboard */,
+				C6046F731C2E808000031C9B /* Assets.xcassets */,
+				C6046F751C2E808000031C9B /* LaunchScreen.storyboard */,
+				C6046F781C2E808000031C9B /* Info.plist */,
+				C6046F671C2E808000031C9B /* Supporting Files */,
+			);
+			path = SquareWaveAudioDemo;
+			sourceTree = "<group>";
+		};
+		C6046F671C2E808000031C9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6046F681C2E808000031C9B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6046F801C2E808000031C9B /* SquareWaveAudioDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6046F811C2E808000031C9B /* SquareWaveAudioDemoTests.m */,
+				C6046F831C2E808000031C9B /* Info.plist */,
+			);
+			path = SquareWaveAudioDemoTests;
+			sourceTree = "<group>";
+		};
+		C6046F8B1C2E808000031C9B /* SquareWaveAudioDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6046F8C1C2E808000031C9B /* SquareWaveAudioDemoUITests.m */,
+				C6046F8E1C2E808000031C9B /* Info.plist */,
+			);
+			path = SquareWaveAudioDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6046F631C2E808000031C9B /* SquareWaveAudioDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6046F911C2E808000031C9B /* Build configuration list for PBXNativeTarget "SquareWaveAudioDemo" */;
+			buildPhases = (
+				C6046F601C2E808000031C9B /* Sources */,
+				C6046F611C2E808000031C9B /* Frameworks */,
+				C6046F621C2E808000031C9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SquareWaveAudioDemo;
+			productName = SquareWaveAudioDemo;
+			productReference = C6046F641C2E808000031C9B /* SquareWaveAudioDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6046F7C1C2E808000031C9B /* SquareWaveAudioDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6046F941C2E808000031C9B /* Build configuration list for PBXNativeTarget "SquareWaveAudioDemoTests" */;
+			buildPhases = (
+				C6046F791C2E808000031C9B /* Sources */,
+				C6046F7A1C2E808000031C9B /* Frameworks */,
+				C6046F7B1C2E808000031C9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6046F7F1C2E808000031C9B /* PBXTargetDependency */,
+			);
+			name = SquareWaveAudioDemoTests;
+			productName = SquareWaveAudioDemoTests;
+			productReference = C6046F7D1C2E808000031C9B /* SquareWaveAudioDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6046F871C2E808000031C9B /* SquareWaveAudioDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6046F971C2E808000031C9B /* Build configuration list for PBXNativeTarget "SquareWaveAudioDemoUITests" */;
+			buildPhases = (
+				C6046F841C2E808000031C9B /* Sources */,
+				C6046F851C2E808000031C9B /* Frameworks */,
+				C6046F861C2E808000031C9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6046F8A1C2E808000031C9B /* PBXTargetDependency */,
+			);
+			name = SquareWaveAudioDemoUITests;
+			productName = SquareWaveAudioDemoUITests;
+			productReference = C6046F881C2E808000031C9B /* SquareWaveAudioDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6046F5C1C2E807F00031C9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = mr.cao;
+				TargetAttributes = {
+					C6046F631C2E808000031C9B = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C6046F7C1C2E808000031C9B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C6046F631C2E808000031C9B;
+					};
+					C6046F871C2E808000031C9B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C6046F631C2E808000031C9B;
+					};
+				};
+			};
+			buildConfigurationList = C6046F5F1C2E808000031C9B /* Build configuration list for PBXProject "SquareWaveAudioDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6046F5B1C2E807F00031C9B;
+			productRefGroup = C6046F651C2E808000031C9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6046F631C2E808000031C9B /* SquareWaveAudioDemo */,
+				C6046F7C1C2E808000031C9B /* SquareWaveAudioDemoTests */,
+				C6046F871C2E808000031C9B /* SquareWaveAudioDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6046F621C2E808000031C9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6046F771C2E808000031C9B /* LaunchScreen.storyboard in Resources */,
+				C6046F741C2E808000031C9B /* Assets.xcassets in Resources */,
+				C6046F721C2E808000031C9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6046F7B1C2E808000031C9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6046F861C2E808000031C9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6046F601C2E808000031C9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6046F6F1C2E808000031C9B /* ViewController.m in Sources */,
+				C6046F6C1C2E808000031C9B /* AppDelegate.m in Sources */,
+				C6046F691C2E808000031C9B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6046F791C2E808000031C9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6046F821C2E808000031C9B /* SquareWaveAudioDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6046F841C2E808000031C9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6046F8D1C2E808000031C9B /* SquareWaveAudioDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6046F7F1C2E808000031C9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6046F631C2E808000031C9B /* SquareWaveAudioDemo */;
+			targetProxy = C6046F7E1C2E808000031C9B /* PBXContainerItemProxy */;
+		};
+		C6046F8A1C2E808000031C9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6046F631C2E808000031C9B /* SquareWaveAudioDemo */;
+			targetProxy = C6046F891C2E808000031C9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6046F701C2E808000031C9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6046F711C2E808000031C9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6046F751C2E808000031C9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6046F761C2E808000031C9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6046F8F1C2E808000031C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6046F901C2E808000031C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6046F921C2E808000031C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SquareWaveAudioDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Het.SquareWaveAudioDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6046F931C2E808000031C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SquareWaveAudioDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Het.SquareWaveAudioDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C6046F951C2E808000031C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SquareWaveAudioDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Het.SquareWaveAudioDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquareWaveAudioDemo.app/SquareWaveAudioDemo";
+			};
+			name = Debug;
+		};
+		C6046F961C2E808000031C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SquareWaveAudioDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Het.SquareWaveAudioDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquareWaveAudioDemo.app/SquareWaveAudioDemo";
+			};
+			name = Release;
+		};
+		C6046F981C2E808000031C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SquareWaveAudioDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Het.SquareWaveAudioDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SquareWaveAudioDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C6046F991C2E808000031C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SquareWaveAudioDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Het.SquareWaveAudioDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SquareWaveAudioDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6046F5F1C2E808000031C9B /* Build configuration list for PBXProject "SquareWaveAudioDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6046F8F1C2E808000031C9B /* Debug */,
+				C6046F901C2E808000031C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6046F911C2E808000031C9B /* Build configuration list for PBXNativeTarget "SquareWaveAudioDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6046F921C2E808000031C9B /* Debug */,
+				C6046F931C2E808000031C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6046F941C2E808000031C9B /* Build configuration list for PBXNativeTarget "SquareWaveAudioDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6046F951C2E808000031C9B /* Debug */,
+				C6046F961C2E808000031C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6046F971C2E808000031C9B /* Build configuration list for PBXNativeTarget "SquareWaveAudioDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6046F981C2E808000031C9B /* Debug */,
+				C6046F991C2E808000031C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6046F5C1C2E807F00031C9B /* Project object */;
+}
