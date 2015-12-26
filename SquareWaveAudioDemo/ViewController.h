@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <AudioUnit/AudioUnit.h>
+#import <AudioToolbox/AudioToolbox.h>
 @interface ViewController : UIViewController
-
+@property (nonatomic, assign)  AudioComponentInstance toneUnit;
+@property (nonatomic, assign)  AudioStreamBasicDescription mAudioFormat;
+@property (nonatomic, strong)  NSMutableData  *recevData;
 
 @end
 
